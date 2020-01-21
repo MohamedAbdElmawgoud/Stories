@@ -1,0 +1,205 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>-->
+    <ion-title>
+قصص وحكايات
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)="getStories('horror')">
+        <ion-card class="backGround" text-center color="white">
+          <img src="/assets/image/رعب.jpg">
+          <ion-card-title>
+            <h2>قصص رعب</h2>
+          </ion-card-title>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('quran')">
+          <img src="/assets/image/القراءن.jpg">
+          <ion-card-title>
+            <h2>قصص القرآن</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+
+
+    </ion-row>
+
+
+
+    <ion-row>
+
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('motivation')">
+          <img src="/assets/image/تحفيزيه.jpg">
+          <ion-card-title>
+            <h2>قصص تحفيزية</h2>
+          </ion-card-title>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('realistic')">
+          <img src="/assets/image/واقعيه.jpg">
+          <ion-card-title>
+            <h2>قصص واقعية</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+
+
+    </ion-row>
+
+    <ion-row>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('children')">
+          <img src="/assets/image/اطفال.jpg">
+          <ion-card-title>
+            <h2>قصص اطفال</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('جحا')">
+          <img src="/assets/image/جحا.jpg">
+          <ion-card-title>
+            <h2>قصص جحا</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('Amsal')">
+          <img src="/assets/image/الامثال.jpeg">
+          <ion-card-title>
+            <h2>الامثال الشعبيه</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('sad')">
+          <img src="/assets/image/حزينه.jpg">
+          <ion-card-title>
+            <h2>قصص حزينه</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('الانبياء')">
+          <img src="/assets/image/الانبياء.jpg">
+          <ion-card-title>
+            <h2>قصص الانبياء</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('scientific')">
+          <img src="/assets/image/خيال علمي.jpg">
+          <ion-card-title>
+            <h2 class="khayal">خيال واختراعات</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('darab')">
+          <img src="/assets/image/دهاء العرب.jpg">
+          <ion-card-title>
+            <h2>دهاء العرب</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('sa7aba')">
+          <img src="/assets/image/الصحابه.jpg">
+          <ion-card-title>
+            <h2>الصحابه</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('تربويه')">
+          <img src="/assets/image/تربويه.jpg">
+          <ion-card-title>
+            <h2>قصص تربويه</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col>
+        <ion-card class="backGround" text-center color="white" (click)="getStories('حكم وعبر')">
+          <img src="/assets/image/عبر.jpg">
+          <ion-card-title>
+            <h2>عبر وحكم</h2>
+          </ion-card-title>
+
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <!-- <ion-card class="welcome-card">
+      <img src="/assets/" alt="" />
+      <ion-card-header>
+        <ion-card-subtitle></ion-card-subtitle>
+        <ion-card-title></ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          
+      </ion-card-content>
+    </ion-card>-->
+</ion-content>

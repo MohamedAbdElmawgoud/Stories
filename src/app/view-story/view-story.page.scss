@@ -1,0 +1,261 @@
+@import '../../theme/fonts';
+ion-content{
+    text-align: center;
+}
+ion-card {
+    box-shadow: 1px 1px 1px 3px  rgb(0, 0, 0), ;
+    //border: thick double #BEB9B9;
+}
+ion-card-content{
+   // color: #FFFFFF;
+    font-size: 35px;
+    font-family:   "hartala";
+    animation-name: slideInUp;
+    animation-duration:  0.6s;
+  }
+
+@keyframes slideInUp{
+  from {
+    margin-top: 100%;
+    height: 300%; 
+  }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+ion-card-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family:   "hartala";
+    font-style: bold;
+    margin-top: 7px;
+    animation-name: slideInUp;
+    animation-duration:  0.6s;
+    text-align:center; 
+    
+   // text-shadow: 1px 1px 2px black, 0 0 1em #7D7D7D, 0 0 0.2em #7D7D7D;
+}
+img{
+    width:80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7px;
+    display: flex;
+    border-radius: 7px;
+   // box-shadow:1px 1px 2px black, 0 0 1em black, 0 0 0.2em black , 0 0 0.6em #7D7D7D;
+}
+.horror{
+    text-align:center;  
+    --background:	#0C2126; 
+    //#121212
+}
+.horrorC{
+  
+  color: 	#D50500;
+ 
+}
+.horrorT{
+  color: wheat;
+}
+///////////////////////////////////////////////////////////////////////
+.quran{
+    --background:rgba(29 , 74 , 124);
+    text-align: center;
+  }
+  .quranC{
+    
+    color: rgb(91, 193, 147);
+   
+  }
+  .quranT{
+    color: #375E4C;
+  }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // motivation
+  .motivation{
+    --background:#4F0E0E;
+    text-align: center;
+  }
+  .motivationC{
+    
+    color:  rgb(82, 197, 183);   
+   
+  }
+  .motivationT{
+    
+    
+      }
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // realistic
+  .realistic{
+    --background:rgba(164, 70, 62); 
+  }
+  .realisticC{
+    
+    color:rgba(79, 154, 132); 
+   
+  }
+  .realisticT{
+    text-shadow: 1px 1px 2px black, 0 0 1em rgba(79, 154, 132),rgba(79, 154, 132);
+      }
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // go7a
+  .go7a{
+    --background:rgba(114, 33, 24); 
+  }
+  .go7aC{
+    
+     color: #92AF48;
+   
+  }
+  .go7aT{
+    
+      }
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // sad
+
+  .sad{
+    --background:#2e323c; 
+  }
+  .sadC{
+    
+    color:#6399BD; 
+   
+  }
+  .sadT{
+       color: #B8BCD2;
+      }
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Amsal
+
+
+  .Amsal{
+    --background:rgba(132, 110,78); 
+  }
+  .AmsalC{
+    
+    color:#671E18; 
+   
+  }
+  .AmsalT{
+     color : #ECD6A7 ;
+      }
+////////////////////////////////////////////////
+
+.children{
+        --background:rgba(212 , 131 , 212);
+        text-align: center;
+      }
+    .childrenC{
+        
+        color: rgba(46, 42, 64);
+       
+      }
+  .childrenT{
+        color: white;
+      }
+////////////////////////////////////////////////////////
+
+
+      .scientific{
+        --background:  #1F847B;
+        text-align: center;
+      }
+    .scientificC{
+        
+        color: #D6AC63;
+       
+      }
+  .scientificT{
+        color: wheat ;
+      }
+/////////////////////////////////////////////
+
+
+
+      .darab{
+        --background:#222748;
+        text-align: center;
+      }
+    .darabC{
+        
+        color:  #B0905E;
+       
+      }
+  .darabT{
+        color: #F1CEDD;
+      }
+///////////////////////////////////////////////////
+
+
+      .anb{
+        --background: 	  #294114;
+        text-align: center;
+      }
+    .anbC{
+        
+        color: wheat;
+       
+      }
+  .anbT{
+        color: white;
+      }
+//////////////////////////////////////////////////////////////////
+
+
+      .learn{
+        --background:#3A5154;
+        text-align: center;
+      }
+    .learnC{
+        
+        color: #F9925A;
+       
+      }
+  .learnT{
+        color: #C7C7C7;
+      }
+////////////////////////////////////////////////////////////////////
+
+
+
+      .sa7aba{
+        --background:rgba(30,  39, 67);
+        text-align: center;
+      }
+    .sa7abaC{
+        
+      color:rgba(210,157, 164); 
+       
+      }
+  .sa7abaT{
+    color: #B4B7CC;
+      }
+/////////////////////////////////////////////////////////
+
+
+
+      .hakm{
+        --background:  #2A414F;
+        text-align: center;
+      }
+    .hakmC{
+        
+        color: #9AD1E0 ;
+       
+      }
+  .hakmT{
+        color: #FFFFFF;
+      }

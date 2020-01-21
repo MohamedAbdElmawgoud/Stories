@@ -1,0 +1,216 @@
+<ion-header>
+  <!-- <ion-toolbar>
+        
+  <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons> 
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content  class="horror" *ngIf="Temp[2]==='horror'">
+    <img src = "/assets/image/horror/{{Temp[0]}}.jpg">
+    <div class="horror" >
+    <ion-card>
+        <ion-card-title class="horrorT"> {{Temp[0]}}</ion-card-title>
+        <ion-card-content  class="horrorC">
+            {{Temp[1]}}
+          <!--0 -> title , 1-> content , 2 -> type-->
+        </ion-card-content>
+      </ion-card>
+    </div>
+</ion-content>
+
+
+
+<ion-content  class="quran" *ngIf="Temp[2]==='quran'">
+    <img src = "/assets/image/quran/{{Temp[0]}}.jpg">
+    <div class="quran" >
+        <ion-card class="quran">
+            <ion-card-title> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="quranC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+<ion-content  class="motivation" *ngIf="Temp[2]==='motivation'">
+    <img src = "/assets/image/motivation/{{Temp[0]}}.jpg">
+    <div class="motivation" >
+        <ion-card >
+            <ion-card-title class="motivationT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content  class="motivationC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+
+<ion-content  class="realistic" *ngIf="Temp[2]==='realistic'">
+    <img src = "/assets/image/realistic/{{Temp[0]}}.jpg">
+    <div class="realistic" >
+        <ion-card >
+            <ion-card-title class="realisticT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="realisticC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+
+<ion-content  class="go7a" *ngIf="Temp[2]==='جحا'">
+    <img src = "/assets/image/go7a/{{Temp[0]}}.jpg">
+    <div class="go7a" >
+        <ion-card >
+            <ion-card-title> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="go7aC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+<ion-content  class="sad" *ngIf="Temp[2]==='sad'">
+    <img src = "/assets/image/sad/{{Temp[0]}}.jpg">
+    <div class="sad" >
+        <ion-card >
+            <ion-card-title class="sadT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="sadC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+<ion-content  class="Amsal" *ngIf="Temp[2]==='Amsal'">
+    <img src = "/assets/image/amsal/{{Temp[0]}}.jpg">
+    <div class="Amsal" >
+        <ion-card >
+            <ion-card-title class="AmsalT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="AmsalC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+
+
+
+<ion-content  class="children" *ngIf="Temp[2]==='children'">
+    <img src = "/assets/image/children/{{Temp[0]}}.jpg">
+    <div class="children" >
+        <ion-card >
+            <ion-card-title class="childrenT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="childrenC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+
+<ion-content  class="scientific" *ngIf="Temp[2]==='scientific'">
+    <img src = "/assets/image/scientific/{{Temp[0]}}.jpg">
+    <div class="scientific" >
+        <ion-card >
+            <ion-card-title class="scientificT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="scientificC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+
+
+<ion-content  class="darab" *ngIf="Temp[2]==='darab'">
+    <img src = "/assets/image/3arab/{{Temp[0]}}.jpg">
+    <div class="darab" >
+        <ion-card >
+            <ion-card-title class="darabT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="darabC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+
+
+
+<ion-content  class="anb" *ngIf="Temp[2]==='الانبياء'">
+    <img src = "/assets/image/الانبياء/{{Temp[0]}}.jpg">
+    <div class="anb" >
+        <ion-card >
+            <ion-card-title class="anbT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="anbC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+
+
+
+<ion-content  class="learn" *ngIf="Temp[2]==='تربويه'">
+    <img src = "/assets/image/تربويه/{{Temp[0]}}.jpg">
+    <div class="learn" >
+        <ion-card >
+            <ion-card-title class="learnT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="learnC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+
+<ion-content  class="sa7aba" *ngIf="Temp[2]==='sa7aba'">
+    <img src = "/assets/image/sa7aba/{{Temp[0]}}.jpg">
+    <div class="sa7aba" >
+        <ion-card >
+            <ion-card-title class="sa7abaT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="sa7abaC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>
+
+<ion-content  class="hakm" *ngIf="Temp[2]==='حكم وعبر'">
+    <img src = "/assets/image/حكم وعبر/{{Temp[0]}}.jpg">
+    <div class="hakm" >
+        <ion-card >
+            <ion-card-title class="hakmT"> {{Temp[0]}}</ion-card-title>
+            <ion-card-content class="hakmC">
+                {{Temp[1]}}
+            </ion-card-content>
+          </ion-card>
+        </div>
+
+</ion-content>

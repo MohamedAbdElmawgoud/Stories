@@ -1,0 +1,222 @@
+ <ion-header>
+  <!-- <ion-toolbar>
+      <ion-buttons>
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content>
+  <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="horror" *ngIf="story.ta==='horror'">
+    <ion-card class="horrorCard" (click)="getStory(story.tit)">
+        <img src = "/assets/image/horror/{{story.tit}}.jpg">
+      <ion-card-content>
+        <ion-card-title class="horrorT">{{story.tit}}</ion-card-title> 
+      </ion-card-content>
+    </ion-card>
+     </ion-item>
+    </div> 
+
+
+
+
+
+    
+    <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="quran" *ngIf="story.ta==='quran'" >
+       <ion-card  class="quranC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/quran/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="quranT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div> 
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="motivation" *ngIf="story.ta==='motivation'" >
+       <ion-card  class="motivationC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/motivation/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="motivationT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div> 
+
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="realistic" *ngIf="story.ta==='realistic'" >
+       <ion-card  class="realisticC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/realistic/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="realisticT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div> 
+
+
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="go7a" *ngIf="story.ta==='جحا'" >
+       <ion-card  class="go7aC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/go7a/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="go7aT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div> 
+
+
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="sad" *ngIf="story.ta==='sad'" >
+       <ion-card  class="sadC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/sad/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="sadT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div> 
+
+
+
+
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="Amsal" *ngIf="story.ta==='Amsal'" >
+       <ion-card  class="AmsalC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/amsal/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="AmsalT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div> 
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="children" *ngIf="story.ta==='children'" >
+       <ion-card  class="childrenC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/children/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="childrenT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div> 
+
+       
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="scientific" *ngIf="story.ta==='scientific'" >
+       <ion-card  class="scientificC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/scientific/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="scientificT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div>  
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="darab" *ngIf="story.ta==='darab'" >
+       <ion-card  class="darabC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/3arab/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="darabT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div>   
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="anb" *ngIf="story.ta==='الانبياء'" >
+       <ion-card  class="anbC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/الانبياء/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="anbT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div>   
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="learn" *ngIf="story.ta==='تربويه'" >
+       <ion-card  class="learnC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/تربويه/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="learnT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div>   
+
+
+       
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="sa7aba" *ngIf="story.ta==='sa7aba'" >
+       <ion-card  class="sa7abaC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/sa7aba/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="sa7abaT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div>   
+
+
+
+
+       <div *ngFor="let story of Temp; let i = index">
+        <ion-item class="abr" *ngIf="story.ta==='حكم وعبر'" >
+       <ion-card  class="abrC" (click)="getStory(story.tit)">
+           <img src = "/assets/image/حكم وعبر/{{story.tit}}.jpg">
+         <ion-card-content>
+           <ion-card-title class="abrT">{{story.tit}}</ion-card-title> 
+         </ion-card-content>
+       </ion-card>
+        </ion-item>
+       </div>   
+       
+</ion-content>
+        <!-- <div> {{story.con}}</div>
+        <hr>
+        <div> {{story.ta}}</div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+
+
+
+ -->
